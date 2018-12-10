@@ -7,4 +7,7 @@
 #### config.py 文件配置，数据库配置等
 #### exts.py 获取第三方，方便其他地方导入
 #### manage.py 数据测试创建等，使用flask_scripts
-
+使用方式
+git clone git@github.com:puxiaoshuai/BaseFlask.git
+pip install -r requirements.txt
+config中数据库自行配置，数据库名，密码，等
