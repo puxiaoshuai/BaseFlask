@@ -10,6 +10,8 @@ app = create_app()
 manage = Manager(app=app)
 Migrate(app=app, db=db)
 manage.add_command("db", MigrateCommand)
+if __name__ == '__main__':
+    manage.run()
 # python manage.py db migrate  迁移
 # python manage.py db upgrade 映射到数据库
 """
