@@ -20,7 +20,7 @@ def create_app(config_name):
     regigter_blueprints(app)
     return app
 
-
+app = create_app("development")
 if __name__ == '__main__':
-    app = create_app("development")
+    
     app.run(port=1210, debug=True)
